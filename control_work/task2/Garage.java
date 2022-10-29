@@ -38,14 +38,27 @@ public class Garage {
         return cars.size();
     }
 
-    public void printCars() {
+    public void printCars(boolean byPrice) {
         System.out.println("\nМашины в гараже");
+
         ArrayList<Map.Entry<Car, Integer>> entries = new ArrayList<>(this.cars.entrySet());
-        entries.sort((o2, o1) -> Integer.compare(o1.getValue(), o2.getValue()));
-        System.out.println("Машина / Кол-во");
-        for(Map.Entry<Car, Integer> entry : entries) {
-            System.out.println(entry.getKey() + " / " + entry.getValue());
+        
+        if (!(byPrice)) {
+            entries.sort((o2, o1) -> Integer.compare(o1.getValue(), o2.getValue()));  
+            System.out.println("Машина / Кол-во");
+            for(Map.Entry<Car, Integer> entry : entries) {
+                System.out.println(entry.getKey() + " / " + entry.getValue());
+            }
+        } else {
+            // сортировка по цене
+            entries.sort((o2, o1) -> Integer.compare(o1.getKey().getPrice(), o2.getKey().getPrice()));  
+            System.out.println("Машина / Ценa");
+            for(Map.Entry<Car, Integer> entry : entries) {
+                System.out.println(entry.getKey() + " / " + entry.getKey().getPrice());
         }
+
+        }
+        
     }  
 
 }

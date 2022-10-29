@@ -28,7 +28,8 @@ public class Main {
         garage2.addCar(car1);
         garage2.addCar(car1); //две одинаковые машины для проверки суммирования
 
-        garage2.printCars();
+        garage2.printCars(false);
+        garage2.printCars(true);
 
 
     }
