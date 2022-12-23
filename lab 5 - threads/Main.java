@@ -32,6 +32,21 @@ public class Main {
         thread5.join(); 
         thread6.join(); 
         thread7.join();  
-    }
 
-}
+        System.out.println("Задание 5");
+        System.out.println("\n=============");
+
+        //вилки для всех философов одинаковые
+        int[] forks = new int[6];
+        var p1 = new Philosopher(1, forks);
+        var p2 = new Philosopher(2, forks);
+        var p3 = new Philosopher(3, forks);
+        var p4 = new Philosopher(4, forks);
+        var p5 = new Philosopher(5, forks);
+        p1.start();
+        p2.start();
+        p3.start();
+        p4.start();
+        p5.start();
+        }
+    }
