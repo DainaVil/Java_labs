@@ -1,16 +1,16 @@
 public class Philosopher extends Thread {
 
     // side 1 - право, 0 - лево
+
     private int maxPortion = 100; // порция спагетти ограничена
     private int portion = 5; // скорость еды
-    
     private boolean hasLeftFork, hasRightFork = false;
     private int leftForkID;
     private int rightForkID;
 
     private volatile int[] forks = new int [6];
 
-    Philosopher (int leftForkID, int[] forks){
+    Philosopher (int leftForkID, int[] forks) {
         this.leftForkID = leftForkID;
         this.forks = forks;
         rightForkID = (getForkID(0) == 1) ? 5 : getForkID(0) - 1;
