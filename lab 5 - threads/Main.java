@@ -32,9 +32,6 @@ public class Main {
         thread5.join(); 
         thread6.join(); 
         thread7.join();  
-
-        System.out.println("Задание 5");
-        System.out.println("\n=============");
     }
 
 }
