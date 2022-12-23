@@ -35,7 +35,7 @@ public class Task {
         return id;
     }
 
-    public String getName() {ы
+    public String getName() {
         return name;
     }
 
