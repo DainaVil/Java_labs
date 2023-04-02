@@ -13,5 +13,9 @@
 
 ### 2-й семестр 
 
-#### Контрольная
+1. [Задание с БД - Tests](https://github.com/DainaVil/Java_labs/tree/master/tests)
+3. [Trains](https://github.com/DainaVil/Java_labs/tree/master/trains)
+
+#### Контроль
 [Контрольная работа](https://github.com/DainaVil/Java_labs/tree/master/control)
+
