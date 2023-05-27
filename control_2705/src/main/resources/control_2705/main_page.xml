@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.control_2705.controller.MainController"
+            prefHeight="100.0" prefWidth="350.0" spacing="10" alignment="CENTER">
+
+    <!-- <Label fx:id="addFilm"/>
+    <Button onAction="#addFilm">Add Film</Button>
+    <Label fx:id="delFilm"/>
+    <Button onAction="#delFilm">Delete Film</Button>  -->
+</VBox>

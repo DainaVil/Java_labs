@@ -18,4 +18,5 @@
 
 #### Контроль
 [Контрольная работа](https://github.com/DainaVil/Java_labs/tree/master/control)
+[Контрольная работа 27 мая](https://github.com/DainaVil/Java_labs/tree/master/control_2705)
 
