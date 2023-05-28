@@ -17,6 +17,6 @@
 3. [Trains](https://github.com/DainaVil/Java_labs/tree/master/trains)
 
 #### Контроль
-[Контрольная работа](https://github.com/DainaVil/Java_labs/tree/master/control)
-[Контрольная работа 27 мая](https://github.com/DainaVil/Java_labs/tree/master/control_2705)
+1. [Контрольная работа](https://github.com/DainaVil/Java_labs/tree/master/control)
+2. [Контрольная работа 27 мая](https://github.com/DainaVil/Java_labs/tree/master/control_2705)
 
