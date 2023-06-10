@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Калькулятор</title>
+        <link rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1>Арифметический калькулятор</h1>
+        <p>Введите 2 числа и выберите действие</p>
+        <form th:action="@{/calc}" method="post">
+            <p>
+                <input type="number" th:name="first" size="10" required/>
+                <input type="number" th:name="second" size="10" required/>
+                <input type="submit" class="button" name="add" value=" + "/>
+                <input type="submit" class="button" name="subtract" value=" - "/>
+                <input type="submit" class="button" name="multiply" value=" * "/>
+                <input type="submit" class="button" name="divide" value=" : "/>
+            <p>
+            <p>
+                <h2>Результат: </h2>
+                <h2 th:text="${result}"></h2>
+            </p>
+        </form>
+    </body>
+
+</html>
