@@ -14,9 +14,13 @@
 ### 2-й семестр 
 
 1. [Задание с БД - Tests](https://github.com/DainaVil/Java_labs/tree/master/tests)
-3. [Trains](https://github.com/DainaVil/Java_labs/tree/master/trains)
+2. [Trains](https://github.com/DainaVil/Java_labs/tree/master/trains)
+3. [Отель](https://github.com/DainaVil/Java_labs/tree/master/hotel)
 
 #### Контроль
 1. [Контрольная работа](https://github.com/DainaVil/Java_labs/tree/master/control)
 2. [Контрольная работа 27 мая](https://github.com/DainaVil/Java_labs/tree/master/control_2705)
+
+
+3. [Экзамен](https://github.com/DainaVil/Java_labs/tree/master/exam)
 
